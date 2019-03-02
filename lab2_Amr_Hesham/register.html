@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="registerCss.css">
+</head>
+
+<body>
+	<header>
+		Registration
+	</header>
+	<form >
+		<fieldset id="accountInfo">
+			<legend><span>1 </span>Account Information </legend>
+			<label>Name:</label>
+			<input type="text" name="userName" required="true">
+			<br>
+			Password:<input type="password" name="password" required="true">
+			<br>
+			Confirm Password:<input type="password" name="confirmPassword" required="true">
+			<br>
+			CreditNo:<input type="text" name="creditNo" required="true"> 
+			<br>
+		</fieldset>
+		<fieldset id="personalInfo">
+
+			<legend><span>2 </span>Personal Information</legend>
+			Name:<input type="text" name="name" required="true">
+			<br>
+			Date of Birth:<input type="date" name="dateOfBirth" required="true">
+			<br>
+			Favorite Color:<input type="Color" name="color">
+			<br>
+			Profile Photo(s)<input type="file" name="file" required="true"> 
+			<br>
+			Favorite Browser<select> <option value= "0">FireFox</option> <option   value = "1">Chrome</option> </select> 
+		</fieldset>
+
+		<fieldset id="companyInfo">
+			<legend><span>3 </span>Company Information</legend>
+			No. of Employees:<input type="number" name="noOfEmployees">
+			<br>
+			Estimated Revenue<input type="range" name="dateOfBirth" required="true">
+			<br>
+		</fieldset>
+
+		<fieldset id="contactInfo">
+			<legend><span>4 </span>Contact Information	</legend>
+			Email Address(es)*:<input type="Email" name="emailAddress" multiple="true">
+			<br>
+			Phone<input type="tel" name="phoneNumber" required="true">
+			<br>
+			Website URL:<input type="URL" name="phoneNumber" required="true">
+		</fieldset>
+		<input type="submit" name="submit"></input>
+		<input type="reset" name="cancel" value="Cancel"></input>
+	</form>
+</body>
+</html>

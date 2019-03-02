@@ -1,0 +1,11 @@
+
+body{
+	background-color: #2d343d;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+
+mark{
+	border-radius: 10px;
+}
